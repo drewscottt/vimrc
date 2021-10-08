@@ -4,6 +4,9 @@ set expandtab
 " indents with 4 spaces
 set tabstop=4
 
+" visual (un)indent is 4 spaces
+set shiftwidth=4
+
 " highlights search
 set hlsearch
 
@@ -16,6 +19,10 @@ set number
 " text coloring
 syntax on
 
+" vv goes to esc in insert
+imap vv <esc>
+vmap vv <esc>
+ 
 "Remove all trailing whitespace by pressing F5
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 
