@@ -19,6 +19,9 @@ set number
 " text coloring
 syntax on
 
+" no sound
+set noerrorbells
+
 " vv goes to esc in insert
 imap vv <esc>
 vmap vv <esc>
