@@ -14,6 +14,8 @@ set number
 syntax on
 " no sound
 set noerrorbells
+" _ marks end of word
+set iskeyword-=_
 " vv goes to esc in insert
 imap vv <esc>
 vmap vv <esc>
